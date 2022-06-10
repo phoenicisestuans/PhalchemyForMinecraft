@@ -4,15 +4,15 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.phoenicis.phalc.PhalchemyForMinecraft;
-
+import net.phoenicis.phalc.item.PhalcemyStaff;
 
 
 public class PhalcItems {
 
-    public static final Item PHALCHEMY_STAFF = new Item(new Item.Settings()
+    public static final Item PHALCHEMY_STAFF = new PhalcemyStaff(new Item.Settings()
             .fireproof()
             .maxCount(1)
-            .maxDamage(1)
+            .maxDamage(512)
             .group(PhalchemyForMinecraft.PHALC_STAFFS)
     );
 

@@ -1,5 +1,5 @@
 {
   "itemGroup.phalc.staffs": "Phalchemist Staffs",
-  "item.phalc.phalchemy_staff": "Staff of the Alchemist"
-
+  "item.phalc.phalchemy_staff": "Staff of the Alchemist",
+  "item.test.message" : "Test message has run"
 }
